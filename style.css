@@ -1,0 +1,114 @@
+.b{
+    background-color: rgb(13, 199, 28);
+    color: #ffffff;
+}
+.tabela{
+    background-color: #C6D8D3;
+}
+.t{
+    background-color: aliceblue;
+}
+/* Configurações da página */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F4F1EA;
+}
+
+/* Cabeçalho */
+.cabeça {
+    background-color: #1E3A5F;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.cabeça h1 {
+    margin-top: 0;
+}
+
+.cabeça a {
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+}
+
+/* Parte da montanha */
+.montanha {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    background-color: #DCE6E8;
+    text-align: center;
+}
+
+.montanha img {
+    width: 45%;
+}
+
+.montanha p {
+    font-size: 30px;
+    font-weight: bold;
+    width: 40%;
+}
+
+.montanha button {
+    background-color: #1E3A5F;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Destinos populares */
+.destinos {
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.destinos h2 {
+    width: 100%;
+    color: #1E3A5F;
+}
+
+.destinos img {
+    width: 40%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.destinos h3 {
+    width: 40%;
+    margin-top: -10px;
+    color: #1E3A5F;
+}
+
+/* Por que viajar */
+.viajar {
+    background-color: #C6D8D3;
+    text-align: center;
+    padding: 35px;
+}
+
+.viajar h2 {
+    color: #1E3A5F;
+}
+
+.viajar p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Rodapé */
+.pé {
+    background-color: #1E3A5F;
+    color: white;
+    padding: 20px;
+}
